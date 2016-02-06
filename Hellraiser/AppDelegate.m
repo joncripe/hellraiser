@@ -1,12 +1,5 @@
-//
-//  AppDelegate.m
-//  Hellraiser
-//
-//  Created by Jon on 2/6/16.
-//  Copyright © 2016 Smooth. All rights reserved.
-//
-
 #import "AppDelegate.h"
+#import "Constants.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +9,13 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    self.window = [[UIWindow alloc] initWithFrame:CGRectMake(0, 0, kAppW, kAppH)];
     // Override point for customization after application launch.
+    self.window.backgroundColor = [UIColor purpleColor];
+    self.mainViewController = [[MainViewController alloc] init];
+    self.window.rootViewController = self.mainViewController;
+    
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

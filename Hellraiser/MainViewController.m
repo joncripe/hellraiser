@@ -1,22 +1,15 @@
-//
-//  ViewController.m
-//  Hellraiser
-//
-//  Created by Jon on 2/6/16.
-//  Copyright © 2016 Smooth. All rights reserved.
-//
+#import "MainViewController.h"
 
-#import "ViewController.h"
-
-@interface ViewController ()
+@interface MainViewController ()
 
 @end
 
-@implementation ViewController
+@implementation MainViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"Done");
 }
 
 - (void)didReceiveMemoryWarning {
