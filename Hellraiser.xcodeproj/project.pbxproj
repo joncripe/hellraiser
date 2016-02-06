@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC6DF7931C6667C000EA0617 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6DF7921C6667C000EA0617 /* main.m */; };
+		FC6DF7961C6667C000EA0617 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6DF7951C6667C000EA0617 /* AppDelegate.m */; };
+		FC6DF7991C6667C000EA0617 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6DF7981C6667C000EA0617 /* ViewController.m */; };
+		FC6DF79C1C6667C000EA0617 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC6DF79A1C6667C000EA0617 /* Main.storyboard */; };
+		FC6DF79E1C6667C000EA0617 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC6DF79D1C6667C000EA0617 /* Assets.xcassets */; };
+		FC6DF7A11C6667C000EA0617 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC6DF79F1C6667C000EA0617 /* LaunchScreen.storyboard */; };
+		FC6DF7AC1C6667C000EA0617 /* HellraiserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6DF7AB1C6667C000EA0617 /* HellraiserTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC6DF7A81C6667C000EA0617 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC6DF7861C6667C000EA0617 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC6DF78D1C6667C000EA0617;
+			remoteInfo = Hellraiser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC6DF78E1C6667C000EA0617 /* Hellraiser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hellraiser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC6DF7921C6667C000EA0617 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC6DF7941C6667C000EA0617 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC6DF7951C6667C000EA0617 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC6DF7971C6667C000EA0617 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FC6DF7981C6667C000EA0617 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FC6DF79B1C6667C000EA0617 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC6DF79D1C6667C000EA0617 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC6DF7A01C6667C000EA0617 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC6DF7A21C6667C000EA0617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC6DF7A71C6667C000EA0617 /* HellraiserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HellraiserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC6DF7AB1C6667C000EA0617 /* HellraiserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HellraiserTests.m; sourceTree = "<group>"; };
+		FC6DF7AD1C6667C000EA0617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC6DF78B1C6667C000EA0617 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6DF7A41C6667C000EA0617 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC6DF7851C6667C000EA0617 = {
+			isa = PBXGroup;
+			children = (
+				FC6DF7901C6667C000EA0617 /* Hellraiser */,
+				FC6DF7AA1C6667C000EA0617 /* HellraiserTests */,
+				FC6DF78F1C6667C000EA0617 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC6DF78F1C6667C000EA0617 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC6DF78E1C6667C000EA0617 /* Hellraiser.app */,
+				FC6DF7A71C6667C000EA0617 /* HellraiserTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC6DF7901C6667C000EA0617 /* Hellraiser */ = {
+			isa = PBXGroup;
+			children = (
+				FC6DF7941C6667C000EA0617 /* AppDelegate.h */,
+				FC6DF7951C6667C000EA0617 /* AppDelegate.m */,
+				FC6DF7971C6667C000EA0617 /* ViewController.h */,
+				FC6DF7981C6667C000EA0617 /* ViewController.m */,
+				FC6DF79A1C6667C000EA0617 /* Main.storyboard */,
+				FC6DF79D1C6667C000EA0617 /* Assets.xcassets */,
+				FC6DF79F1C6667C000EA0617 /* LaunchScreen.storyboard */,
+				FC6DF7A21C6667C000EA0617 /* Info.plist */,
+				FC6DF7911C6667C000EA0617 /* Supporting Files */,
+			);
+			path = Hellraiser;
+			sourceTree = "<group>";
+		};
+		FC6DF7911C6667C000EA0617 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC6DF7921C6667C000EA0617 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC6DF7AA1C6667C000EA0617 /* HellraiserTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC6DF7AB1C6667C000EA0617 /* HellraiserTests.m */,
+				FC6DF7AD1C6667C000EA0617 /* Info.plist */,
+			);
+			path = HellraiserTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC6DF78D1C6667C000EA0617 /* Hellraiser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC6DF7B01C6667C000EA0617 /* Build configuration list for PBXNativeTarget "Hellraiser" */;
+			buildPhases = (
+				FC6DF78A1C6667C000EA0617 /* Sources */,
+				FC6DF78B1C6667C000EA0617 /* Frameworks */,
+				FC6DF78C1C6667C000EA0617 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hellraiser;
+			productName = Hellraiser;
+			productReference = FC6DF78E1C6667C000EA0617 /* Hellraiser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC6DF7A61C6667C000EA0617 /* HellraiserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC6DF7B31C6667C000EA0617 /* Build configuration list for PBXNativeTarget "HellraiserTests" */;
+			buildPhases = (
+				FC6DF7A31C6667C000EA0617 /* Sources */,
+				FC6DF7A41C6667C000EA0617 /* Frameworks */,
+				FC6DF7A51C6667C000EA0617 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC6DF7A91C6667C000EA0617 /* PBXTargetDependency */,
+			);
+			name = HellraiserTests;
+			productName = HellraiserTests;
+			productReference = FC6DF7A71C6667C000EA0617 /* HellraiserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC6DF7861C6667C000EA0617 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Smooth;
+				TargetAttributes = {
+					FC6DF78D1C6667C000EA0617 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					FC6DF7A61C6667C000EA0617 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FC6DF78D1C6667C000EA0617;
+					};
+				};
+			};
+			buildConfigurationList = FC6DF7891C6667C000EA0617 /* Build configuration list for PBXProject "Hellraiser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC6DF7851C6667C000EA0617;
+			productRefGroup = FC6DF78F1C6667C000EA0617 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC6DF78D1C6667C000EA0617 /* Hellraiser */,
+				FC6DF7A61C6667C000EA0617 /* HellraiserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC6DF78C1C6667C000EA0617 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6DF7A11C6667C000EA0617 /* LaunchScreen.storyboard in Resources */,
+				FC6DF79E1C6667C000EA0617 /* Assets.xcassets in Resources */,
+				FC6DF79C1C6667C000EA0617 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6DF7A51C6667C000EA0617 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC6DF78A1C6667C000EA0617 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6DF7991C6667C000EA0617 /* ViewController.m in Sources */,
+				FC6DF7961C6667C000EA0617 /* AppDelegate.m in Sources */,
+				FC6DF7931C6667C000EA0617 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6DF7A31C6667C000EA0617 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6DF7AC1C6667C000EA0617 /* HellraiserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC6DF7A91C6667C000EA0617 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC6DF78D1C6667C000EA0617 /* Hellraiser */;
+			targetProxy = FC6DF7A81C6667C000EA0617 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC6DF79A1C6667C000EA0617 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC6DF79B1C6667C000EA0617 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC6DF79F1C6667C000EA0617 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC6DF7A01C6667C000EA0617 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC6DF7AE1C6667C000EA0617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC6DF7AF1C6667C000EA0617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC6DF7B11C6667C000EA0617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Hellraiser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Hellraiser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC6DF7B21C6667C000EA0617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Hellraiser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Hellraiser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FC6DF7B41C6667C000EA0617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HellraiserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.HellraiserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hellraiser.app/Hellraiser";
+			};
+			name = Debug;
+		};
+		FC6DF7B51C6667C000EA0617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HellraiserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.HellraiserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hellraiser.app/Hellraiser";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC6DF7891C6667C000EA0617 /* Build configuration list for PBXProject "Hellraiser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC6DF7AE1C6667C000EA0617 /* Debug */,
+				FC6DF7AF1C6667C000EA0617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC6DF7B01C6667C000EA0617 /* Build configuration list for PBXNativeTarget "Hellraiser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC6DF7B11C6667C000EA0617 /* Debug */,
+				FC6DF7B21C6667C000EA0617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC6DF7B31C6667C000EA0617 /* Build configuration list for PBXNativeTarget "HellraiserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC6DF7B41C6667C000EA0617 /* Debug */,
+				FC6DF7B51C6667C000EA0617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC6DF7861C6667C000EA0617 /* Project object */;
+}
