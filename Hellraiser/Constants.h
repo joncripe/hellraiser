@@ -9,4 +9,9 @@
 //#define kAppH 1334
 //#define kAppW 750
 
+#define kStatusBarH 20
+
+#define kSaveDataFilePath @"appData"
+#define kCycles @"cycles"
+
 #endif

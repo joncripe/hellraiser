@@ -13,6 +13,12 @@
 		FC6DF79E1C6667C000EA0617 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC6DF79D1C6667C000EA0617 /* Assets.xcassets */; };
 		FC6DF7AC1C6667C000EA0617 /* HellraiserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6DF7AB1C6667C000EA0617 /* HellraiserTests.m */; };
 		FC6DF7B81C66708D00EA0617 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC6DF7B71C66708D00EA0617 /* LaunchScreen.storyboard */; };
+		FC6DF7BE1C66882500EA0617 /* TrackerOverviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6DF7BD1C66882500EA0617 /* TrackerOverviewView.m */; };
+		FC6DF7C21C669CE900EA0617 /* CycleObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6DF7C11C669CE900EA0617 /* CycleObject.m */; };
+		FC6DF7C51C66AE2000EA0617 /* SubCycleOneObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6DF7C41C66AE2000EA0617 /* SubCycleOneObject.m */; };
+		FC6DF7C81C66AE3100EA0617 /* SubCycleTwoObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6DF7C71C66AE3100EA0617 /* SubCycleTwoObject.m */; };
+		FC6DF7CB1C66AEA700EA0617 /* SubCycleThreeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6DF7CA1C66AEA700EA0617 /* SubCycleThreeObject.m */; };
+		FC6DF7CE1C66AEB200EA0617 /* SubCycleFourObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6DF7CD1C66AEB200EA0617 /* SubCycleFourObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +45,18 @@
 		FC6DF7AD1C6667C000EA0617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC6DF7B61C666EA600EA0617 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		FC6DF7B71C66708D00EA0617 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC6DF7BC1C66882500EA0617 /* TrackerOverviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackerOverviewView.h; sourceTree = "<group>"; };
+		FC6DF7BD1C66882500EA0617 /* TrackerOverviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackerOverviewView.m; sourceTree = "<group>"; };
+		FC6DF7C01C669CE900EA0617 /* CycleObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CycleObject.h; sourceTree = "<group>"; };
+		FC6DF7C11C669CE900EA0617 /* CycleObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CycleObject.m; sourceTree = "<group>"; };
+		FC6DF7C31C66AE2000EA0617 /* SubCycleOneObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubCycleOneObject.h; sourceTree = "<group>"; };
+		FC6DF7C41C66AE2000EA0617 /* SubCycleOneObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubCycleOneObject.m; sourceTree = "<group>"; };
+		FC6DF7C61C66AE3100EA0617 /* SubCycleTwoObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubCycleTwoObject.h; sourceTree = "<group>"; };
+		FC6DF7C71C66AE3100EA0617 /* SubCycleTwoObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubCycleTwoObject.m; sourceTree = "<group>"; };
+		FC6DF7C91C66AEA700EA0617 /* SubCycleThreeObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubCycleThreeObject.h; sourceTree = "<group>"; };
+		FC6DF7CA1C66AEA700EA0617 /* SubCycleThreeObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubCycleThreeObject.m; sourceTree = "<group>"; };
+		FC6DF7CC1C66AEB200EA0617 /* SubCycleFourObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubCycleFourObject.h; sourceTree = "<group>"; };
+		FC6DF7CD1C66AEB200EA0617 /* SubCycleFourObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubCycleFourObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +98,7 @@
 		FC6DF7901C6667C000EA0617 /* Hellraiser */ = {
 			isa = PBXGroup;
 			children = (
+				FC6DF7BF1C669C4500EA0617 /* Entities */,
 				FC6DF7BB1C66711000EA0617 /* Integral */,
 				FC6DF7BA1C66710600EA0617 /* ViewControllers */,
 				FC6DF7B91C66710100EA0617 /* Views */,
@@ -93,7 +112,6 @@
 		FC6DF7911C6667C000EA0617 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FC6DF7B71C66708D00EA0617 /* LaunchScreen.storyboard */,
 				FC6DF7921C6667C000EA0617 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -111,6 +129,8 @@
 		FC6DF7B91C66710100EA0617 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				FC6DF7BC1C66882500EA0617 /* TrackerOverviewView.h */,
+				FC6DF7BD1C66882500EA0617 /* TrackerOverviewView.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -130,8 +150,26 @@
 				FC6DF7941C6667C000EA0617 /* AppDelegate.h */,
 				FC6DF7951C6667C000EA0617 /* AppDelegate.m */,
 				FC6DF7B61C666EA600EA0617 /* Constants.h */,
+				FC6DF7B71C66708D00EA0617 /* LaunchScreen.storyboard */,
 			);
 			name = Integral;
+			sourceTree = "<group>";
+		};
+		FC6DF7BF1C669C4500EA0617 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				FC6DF7C01C669CE900EA0617 /* CycleObject.h */,
+				FC6DF7C11C669CE900EA0617 /* CycleObject.m */,
+				FC6DF7C31C66AE2000EA0617 /* SubCycleOneObject.h */,
+				FC6DF7C41C66AE2000EA0617 /* SubCycleOneObject.m */,
+				FC6DF7C61C66AE3100EA0617 /* SubCycleTwoObject.h */,
+				FC6DF7C71C66AE3100EA0617 /* SubCycleTwoObject.m */,
+				FC6DF7C91C66AEA700EA0617 /* SubCycleThreeObject.h */,
+				FC6DF7CA1C66AEA700EA0617 /* SubCycleThreeObject.m */,
+				FC6DF7CC1C66AEB200EA0617 /* SubCycleFourObject.h */,
+				FC6DF7CD1C66AEB200EA0617 /* SubCycleFourObject.m */,
+			);
+			name = Entities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,8 +271,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC6DF7CE1C66AEB200EA0617 /* SubCycleFourObject.m in Sources */,
 				FC6DF7991C6667C000EA0617 /* MainViewController.m in Sources */,
+				FC6DF7CB1C66AEA700EA0617 /* SubCycleThreeObject.m in Sources */,
+				FC6DF7C21C669CE900EA0617 /* CycleObject.m in Sources */,
+				FC6DF7C51C66AE2000EA0617 /* SubCycleOneObject.m in Sources */,
 				FC6DF7961C6667C000EA0617 /* AppDelegate.m in Sources */,
+				FC6DF7BE1C66882500EA0617 /* TrackerOverviewView.m in Sources */,
+				FC6DF7C81C66AE3100EA0617 /* SubCycleTwoObject.m in Sources */,
 				FC6DF7931C6667C000EA0617 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +449,7 @@
 				FC6DF7B21C6667C000EA0617 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC6DF7B31C6667C000EA0617 /* Build configuration list for PBXNativeTarget "HellraiserTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +458,7 @@
 				FC6DF7B51C6667C000EA0617 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
